@@ -40,4 +40,4 @@ app.use('/graphql', graphqlHTTP({
   graphiql: true
 }))
 
-app.listen(8080, () => console.log('Running server on localhost:8080'))
+app.listen(8081, () => console.log('Running server on localhost:8081'))
