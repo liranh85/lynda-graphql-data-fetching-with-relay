@@ -52,7 +52,7 @@ const GraphQLUser = new GraphQLObjectType({
     friends: {
       type: friendsConnection,
       args: connectionArgs,
-      resolve: (_, args) => connectionFromArray(getFriend(), args),
+      resolve: (_, args) => connectionFromArray(getFriends(), args),
     },
   }),
   interface: [nodeInterface],
